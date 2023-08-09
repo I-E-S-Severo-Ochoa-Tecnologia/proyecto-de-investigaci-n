@@ -10,6 +10,7 @@ Download: https://education.lego.com/en-us/support/mindstorms-ev3/python-for-ev3
 Building instructions can be found at:
 https://education.lego.com/en-us/support/mindstorms-ev3/building-instructions#building-expansion
 """
+""
 
 from pybricks.hubs import EV3Brick
 from pybricks.ev3devices import Motor, ColorSensor, TouchSensor
@@ -165,3 +166,4 @@ while True:
         # requires the motor to turn 900 degrees.
         angle = 900 * steps
         legs_motor.run_angle(1000, angle)
+        
